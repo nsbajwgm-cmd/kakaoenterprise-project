@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#101314" />
+    <title>Skill Atlas — AML Collaboration</title>
+    <meta name="description" content="한은·금감원·FIU 협업 분석을 위한 개인 스킬 아카이브" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <nav class="topline" aria-label="주요 탐색">
+        <a class="wordmark" href="#top" aria-label="Skill Atlas 처음으로">SKILL ATLAS<span>·</span></a>
+        <span class="nav-status">PRIVATE REGISTRY / 01</span>
+      </nav>
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <p class="eyebrow">AN INDEPENDENT KNOWLEDGE SYSTEM</p>
+        <h1 id="hero-title">Collaborative Finance<br />worksheet</h1>
+        <p class="intro">금융안정·AML 분석을 반복 가능한 스킬로 정리합니다.<br />중앙의 아카이브를 열어 현재 등록된 스킬을 확인하세요.<br /><span class="legal-note">*Please contact us if there are any legal issues. nsbajwgm@gmail.com</span></p>
+        <button class="core" id="registryButton" type="button" aria-expanded="false" aria-controls="registry">
+          <span class="core-ring ring-one"></span><span class="core-ring ring-two"></span>
+          <span class="core-center"><small>OPEN</small><strong>01</strong><em>SKILL</em></span>
+        </button>
+        <p class="tap-hint" id="tapHint">CLICK TO OPEN THE REGISTRY</p>
+      </section>
+      <section class="registry" id="registry" aria-live="polite" aria-label="스킬 목록" hidden>
+        <div class="registry-head"><p class="eyebrow">SKILL REGISTRY</p><span>01 AVAILABLE</span></div>
+        <article class="skill-detail" id="skillDetail">
+          <div><p class="eyebrow">WHAT IT DOES</p><h2>AI보고assisstant<br />풀로 붙여주세요.</h2></div>
+          <div class="detail-copy">
+            <p>FATF·ACAMS·TPAC 문서 또는 익명화된 CAMS 사례를 읽기 전용으로 분석해, 한국은행 ECOS와 금감원 DART의 확인 가능한 근거를 협업 언어로 정리하는 AI 보고 assistant입니다.</p>
+            <ul><li>원문·공개근거·분석가 가설을 분리</li><li>기업 식별자 없이는 DART 연결을 하지 않음</li><li>협업 카드, 분석보고서, 5–10분 설명대본 산출</li></ul>
+            <p class="package-label">PACKAGE CONTENTS</p>
+            <div class="file-list" aria-label="포함 파일"><span>SKILL.md</span><span>case-schema.md</span><span>document-loop.md</span><span>report-and-script.md</span></div>
+            <span class="boundary">READ-ONLY · NO STR DECISION · NO DATA ALTERATION</span>
+          </div>
+        </article>
+      </section>
+      <footer><span>AML / ECOS / DART</span><span>2026 — PERSONAL SKILL ARCHIVE</span></footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
